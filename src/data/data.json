@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "state": "awaiting-approval",
+      "job": {
+        "id": 1,
+        "location": {
+          "suburb": "Collingwood",
+          "state": "VIC",
+          "postcode": "3066"
+        },
+        "start-time": "2018-09-11 00:09:00 +1000",
+        "finish-time": "2018-09-15 00:18:00 +1000"
+      },
+      "weployee": {
+        "name": "Craig Cranston",
+        "profile-image-url": "https://picsum.photos/600/600/?image=101",
+        "email": "crandawg@gmail.com",
+        "mobile": "0412345678",
+        "average-rating": 4.5
+      }
+    },
+    {
+      "id": 2,
+      "state": "awaiting-approval",
+      "job": {
+        "id": 1,
+        "location": {
+          "suburb": "Collingwood",
+          "state": "VIC",
+          "postcode": "3066"
+        },
+        "start-time": "2018-09-11 00:09:00 +1000",
+        "finish-time": "2018-09-15 00:18:00 +1000"
+      },
+      "weployee": {
+        "name": "Jenny Jones",
+        "profile-image-url": "https://picsum.photos/600/600/?image=102",
+        "email": "jenjen@gmail.com",
+        "mobile": "0487654321",
+        "average-rating": 5
+      }
+    },
+    {
+      "id": 3,
+      "state": "requested",
+      "job": {
+        "id": 2,
+        "location": {
+          "suburb": "Camberwell",
+          "state": "VIC",
+          "postcode": "3124"
+        },
+        "start-time": "2018-09-25 00:09:00 +1000",
+        "finish-time": "2018-09-29 00:17:00 +1000"
+      }
+    },
+    {
+      "id": 4,
+      "state": "requested",
+      "job": {
+        "id": 3,
+        "location": {
+          "suburb": "Melbourne",
+          "state": "VIC",
+          "postcode": "3000"
+        },
+        "start-time": "2018-10-01 00:09:00 +1000",
+        "finish-time": "2018-10-01 00:17:00 +1000"
+      }
+    },
+    {
+      "id": 5,
+      "state": "requested",
+      "job": {
+        "id": 3,
+        "location": {
+          "suburb": "Melbourne",
+          "state": "VIC",
+          "postcode": "3000"
+        },
+        "start-time": "2018-10-01 00:09:00 +1000",
+        "finish-time": "2018-10-01 00:17:00 +1000"
+      }
+    },
+    {
+      "id": 6,
+      "state": "accepted",
+      "job": {
+        "id": 4,
+        "location": {
+          "suburb": "Collingwood",
+          "state": "VIC",
+          "postcode": "3066"
+        },
+        "start-time": "2018-09-21 00:09:00 +1000",
+        "finish-time": "2018-09-23 00:18:00 +1000"
+      },
+      "weployee": {
+        "name": "Tony Thompson",
+        "profile-image-url": "https://picsum.photos/600/600/?image=103",
+        "email": "tonytommy@gmail.com",
+        "mobile": "0412345555",
+        "average-rating": 4
+      }
+    },
+    {
+      "id": 7,
+      "state": "accepted",
+      "job": {
+        "id": 4,
+        "location": {
+          "suburb": "Collingwood",
+          "state": "VIC",
+          "postcode": "3066"
+        },
+        "start-time": "2018-09-21 00:09:00 +1000",
+        "finish-time": "2018-09-23 00:18:00 +1000"
+      },
+      "weployee": {
+        "name": "Monica Murray",
+        "profile-image-url": "https://picsum.photos/600/600/?image=104",
+        "email": "monica@gmail.com",
+        "mobile": "0412347777",
+        "average-rating": 3.5
+      }
+    }
+  ]
+  
