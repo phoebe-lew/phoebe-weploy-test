@@ -1,5 +1,5 @@
 import React from 'react'
 
-const Button = ({ status }) => <button>{status}</button>
+const Button = ({ children }) => <button>{children}</button>
 
 export default Button

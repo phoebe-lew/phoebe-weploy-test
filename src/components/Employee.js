@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Employee = ({ employeeDetails }) => {
-  console.log(employeeDetails)
   if (employeeDetails) {
     return (
       <div>
@@ -13,7 +12,8 @@ const Employee = ({ employeeDetails }) => {
             width="35"
           />
         </span>
-        <span>{employeeDetails.name}</span>
+        <span> {employeeDetails.name}</span>
+        <br />
         <div> &#9733; {employeeDetails['average-rating']}</div>
         <div>Email: {employeeDetails.email}</div>
         <div>Mobile: {employeeDetails.mobile}</div>
@@ -22,7 +22,10 @@ const Employee = ({ employeeDetails }) => {
   }
   return (
     <div>
-      <i>This position has been sent to matching candidates. Please wait</i>
+      <i>
+        This position has been sent to matching candidates.
+        <br /> Please wait.
+      </i>
     </div>
   )
 }

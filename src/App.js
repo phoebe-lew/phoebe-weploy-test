@@ -3,7 +3,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
 import PanelContainer from './components/PanelContainer.js'
 import { getPositionsByState } from './data/mappedData.js'
-import './App.css'
 import 'react-tabs/style/react-tabs.css'
 
 class App extends Component {
